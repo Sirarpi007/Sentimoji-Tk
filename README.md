@@ -1,2 +1,13 @@
 # Sentimoji-Tk
-Desktop GUI that performs instant sentiment analysis with TextBlob and Tkinter, showing an emoji and color‑coded background for positive, neutral, or negative text.
+
+A minimal Python desktop app that:
+- Takes any text you type  
+- Uses **TextBlob** to compute sentiment polarity  
+- Shows 😊  😐  😞 emoji feedback  
+- Changes the whole window background (green / gray / red)  
+- Lets you go full‑screen (Esc to exit)  
+
+## Install & run
+```bash
+pip install textblob
+python app.py
